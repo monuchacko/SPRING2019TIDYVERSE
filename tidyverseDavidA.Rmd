@@ -83,6 +83,17 @@ avg.rent.byzip <- sub.rent.data %>% group_by(Zip_Code) %>% summarise(AvgRent=mea
 avg.rent.bystate <- sub.rent.data %>% group_by(State_Name) %>% summarise(AvgRent=mean(Mean))
 ```
 
+# Summary
+
+Notes [Monu Chacko]: Added summary
+
+```{r}
+
+# Summarise
+summarise(sub.rent.data, "MeanSamples" = mean(as.numeric(sub.rent.data$Samples), na.rm = TRUE), "SDSamples" = sd(as.numeric(sub.rent.data$Samples), na.rm = TRUE))
+```
+
+
 # Graphing
 
 In this section, I am using ggplot to create a basic scatterplot as it is one of the most useful libraries.
