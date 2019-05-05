@@ -70,3 +70,8 @@ I decided to do my tidyverse assignment on the tibbles package. The rmarkdown co
 
 ### Isabel R.
 I will focus on how to use the `Nest` and `Unnest` functions utilizing data from *FiveThirtyEight*,"How Popular Is Donald Trump?" from the trump-approval-ratings data set. The rmarkdown code has been posted to this repository and the html file can be found here: http://rpubs.com/IsabelR/TidyVerseAssignment
+
+### Monu Chacko
+My assignment is on NCAA Women’s Basketball Tournament data. It contains information for every team that has participated in the NCAA Division I Women’s Basketball Tournament since it began in 1982. Every school is shown with its seed, conference record (when available), regular-season record, tournament record and full season record, including winning percentages. You can find the final version here: http://rpubs.com/monuchacko/493384
+
+<img src="/Images/mc-tv.png" />
